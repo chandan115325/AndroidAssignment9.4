@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_settings"
+        android:title="Context Menu"
+        app:showAsAction="never">
+        <!-- Submenu created inside Text Color menu -->
+        <menu>
+            <item android:id="@+id/item1"
+                android:title="@string/Action_1"/>
+            <item android:id="@+id/item2"
+                android:title="@string/Action_2"/>
+            <item android:id="@+id/item3"
+                android:title="@string/Action_3"/>
+        </menu>
+    </item>
+</menu>
